@@ -26,8 +26,10 @@ body {
 .ilustracao {
     background-image: url(../images/illustration-hero.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 200px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 .caixa-texto{
@@ -40,4 +42,20 @@ body {
 .titulo-principal {
     color: hsl(223, 47%, 23%);
     font-size: 1.5em;
+    margin: 30px 0 10px 0;
+}
+
+.texto-principal {
+    color: hsl(224, 23%, 55%);
+    font-size: 1em;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.assinarura-plano {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
