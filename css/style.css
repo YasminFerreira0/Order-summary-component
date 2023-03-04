@@ -57,5 +57,31 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
+}
+
+.plano {
+    color: hsl(223, 47%, 23%);
+    font-size: 1em;
+}
+
+.plano-texto {
+    color: hsl(224, 23%, 55%);
+    font-size: 0.9em;
+}
+
+.link {
+    color: hsl(245, 75%, 52%);
+    font-size: 0.9em;
+}
+
+.btn-pagamento {
+    border: none;
+    padding: 15px 50px;
+    border-radius: 15px;
+    font-size: 1.1em;
+    font-weight: 700;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    margin: 20px 0 10px 0;
 }
