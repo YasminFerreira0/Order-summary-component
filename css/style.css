@@ -27,7 +27,7 @@ body {
     background-image: url(../images/illustration-hero.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200px;
+    height: 180px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
@@ -41,8 +41,8 @@ body {
 
 .titulo-principal {
     color: hsl(223, 47%, 23%);
-    font-size: 1.5em;
-    margin: 30px 0 10px 0;
+    font-size: 1.3em;
+    margin: 25px 0 10px 0;
 }
 
 .texto-principal {
@@ -84,4 +84,13 @@ body {
     background-color: hsl(245, 75%, 52%);
     color: hsl(225, 100%, 98%);
     margin: 20px 0 10px 0;
+}
+
+.btn-cancelamento {
+    border: none;
+    background-color: transparent;
+    font-size: 0.9em;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    margin: 10px 0 20px 0;
 }
